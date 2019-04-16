@@ -187,18 +187,18 @@ site_name: Static Site Demo
    * First let's add the links to our images as a list in the same location we added our `site_name` variable:
  ```
  ---
-site_name: Static Site Demo
-image_links:
-  - https://picsum.photos/1200/900/?random=1
-  - https://picsum.photos/1200/900/?random=2
-  - https://picsum.photos/1200/900/?random=3
-  - https://picsum.photos/1200/900/?random=4
-  - https://picsum.photos/1200/900/?random=5
-  - https://picsum.photos/1200/900/?random=6
-  - https://picsum.photos/1200/900/?random=7
-  - https://picsum.photos/1200/900/?random=8
-  - https://picsum.photos/1200/900/?random=9
-  ---
+ site_name: Static Site Demo
+ image_links:
+ - https://picsum.photos/1200/900/?random=1
+ - https://picsum.photos/1200/900/?random=2
+ - https://picsum.photos/1200/900/?random=3
+ - https://picsum.photos/1200/900/?random=4
+ - https://picsum.photos/1200/900/?random=5
+ - https://picsum.photos/1200/900/?random=6
+ - https://picsum.photos/1200/900/?random=7
+ - https://picsum.photos/1200/900/?random=8
+ - https://picsum.photos/1200/900/?random=9
+ ---
  ```
    * Next, let's get rid of all the messy html in our `images-container` and replace it with a simple for loop:
 ```
